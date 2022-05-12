@@ -1,0 +1,22 @@
+export interface Iuserlist {
+    address:[{
+        city:string,
+        street:string,
+        suite:string,
+        zipcode:string,
+        geo:[{
+            lat:string,
+            lng:string,
+        }]
+    }],
+    company:[{
+        bs:string,
+        catchPhrase:string,
+        name:string,
+    }],
+    email:string,
+    id:number,
+    phone:string,
+    username:string,
+    website:string,
+}

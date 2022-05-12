@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wikiapi"
+    }
+  },
+  "defaultProject": "wikiapi",
+  "cli": {
+    "analytics": "f67844fe-bd02-47c3-9228-b318562b90e0"
+  }
 }
